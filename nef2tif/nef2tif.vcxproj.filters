@@ -26,9 +26,6 @@
     <ClInclude Include="mytiff.h">
       <Filter>Headerdateien</Filter>
     </ClInclude>
-    <ClInclude Include="Nkfl_Interface.h">
-      <Filter>Headerdateien</Filter>
-    </ClInclude>
     <ClInclude Include="resource.h">
       <Filter>Headerdateien</Filter>
     </ClInclude>
@@ -38,8 +35,4 @@
     <None Include="README.md" />
     <None Include="LICENSE.md" />
   </ItemGroup>
-  <ItemGroup>
-    <Library Include="..\..\..\..\Nikon RAW SDK\S-SDKNEF-001BF-ALLIN\Image SDK\Library\win\Bin\x86\Release\Lib\NkImgSDK.lib" />
-    <Library Include="..\packages\libtiff.4.0.6.2\build\native\lib\Release\Win32\v140\libtiff.lib" />
-  </ItemGroup>
-</Project>
+  </Project>
