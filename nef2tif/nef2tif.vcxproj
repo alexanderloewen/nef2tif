@@ -118,17 +118,12 @@
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="mytiff.h" />
-    <ClInclude Include="Nkfl_Interface.h" />
     <ClInclude Include="resource.h" />
   </ItemGroup>
   <ItemGroup>
     <None Include="LICENSE.md" />
     <None Include="packages.config" />
     <None Include="README.md" />
-  </ItemGroup>
-  <ItemGroup>
-    <Library Include="..\..\..\..\Nikon RAW SDK\S-SDKNEF-001BF-ALLIN\Image SDK\Library\win\Bin\x86\Release\Lib\NkImgSDK.lib" />
-    <Library Include="..\packages\libtiff.4.0.6.2\build\native\lib\Release\Win32\v140\libtiff.lib" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">
