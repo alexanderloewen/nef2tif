@@ -31,15 +31,14 @@ Make sure you have Microsoft Visual Studio 2017 installed.
 ### Installing
 
 1. Open the solution *nef2tif.sln* within Visual Studio.
-2. Select project *nef2tif* in the Solution Explorer.
-3. Go to *Project->Manage NuGet Packages...* and install *libtiff*.
-4. Copy the file `Image SDK\Library\win\Include\Nkfl_Interface.h` from Nikon's NEF(RAW) SDK to the project folder.
-5. Add the following files to the project by right-clicking on the project and than `Add->Existing item...`:
+2. Select project *nef2tif* in the Solution Explorer, then go to *Project->Manage NuGet Packages...* and install *libtiff*.
+3. Copy the file `Image SDK\Library\win\Include\Nkfl_Interface.h` from Nikon's NEF(RAW) SDK to the project folder.
+4. Add the following files to the project by right-clicking on the project and then `Add->Existing item...`:
    * `Nkfl_Interface.h`
    * `Image SDK\Library\win\Bin\x86\Release\Lib\NkImgSDK.lib`
    * `packages\libtiff.x.x.x.x\build\native\lib\Release\Win32\v140\libtiff.lib`
-6. Go to `Project->nef2tif Properties...`, choose `C++` then `Code Generation`and change `Runtime Library` to `Multithreaded (/MT)` for better usage with wine. This makes a statically linked .exe.
-7. Build the solution in the `Release/x86` configuration. (This is necessary because the 64-bit version of Nikon's DLL seems to be buggy.)
+5. Go to `Project->nef2tif Properties...`, choose `C++` then `Code Generation`and change `Runtime Library` to `Multithreaded (/MT)` for better usage with wine. This makes a statically linked .exe.
+6. Build the solution in the `Release/x86` configuration. (This is necessary because the 64-bit version of Nikon's DLL seems to be buggy.)
 
 
 
@@ -50,6 +49,9 @@ To run **nef2tif** make sure to have the following files in your PATH:
 * `packages\libtiff.redist.x.x.x.x\build\native\bin\Release\Win32\v140\libtiff.dll`
 * `packages\zlib.v140.windesktop.msvcstl.dyn.rt-dyn.x.x.x.x\lib\native\v140\windesktop\msvcstl\dyn\rt-dyn\Win32\Release\zlib.dll`
 * `Image SDK\Library\win\Bin\x86\Release\NkImgSDK.dll`
+* `Image SDK\Library\win\Bin\x86\Release\Elm.dll`
+* `Image SDK\Library\win\Bin\x86\Release\tbb.dll`
+* `Image SDK\Library\win\Bin\x86\Release\tbbmalloc.dll`
 
 
 
