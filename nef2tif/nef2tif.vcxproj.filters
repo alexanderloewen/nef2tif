@@ -36,6 +36,7 @@
   <ItemGroup>
     <None Include="packages.config" />
     <None Include="README.md" />
+    <None Include="LICENSE.md" />
   </ItemGroup>
   <ItemGroup>
     <Library Include="..\..\..\..\Nikon RAW SDK\S-SDKNEF-001BF-ALLIN\Image SDK\Library\win\Bin\x86\Release\Lib\NkImgSDK.lib" />
