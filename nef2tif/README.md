@@ -49,6 +49,7 @@ To run **nef2tif** make sure to have the following files in your PATH:
 * `packages\libjpeg.redist.x.x.x.x\build\native\bin\v140\Win32\Release\dynamic\cdecl\jpeg.dll`
 * `packages\libtiff.redist.x.x.x.x\build\native\bin\Release\Win32\v140\libtiff.dll`
 * `packages\zlib.v140.windesktop.msvcstl.dyn.rt-dyn.x.x.x.x\lib\native\v140\windesktop\msvcstl\dyn\rt-dyn\Win32\Release\zlib.dll`
+* `Image SDK\Library\win\Bin\x86\Release\NkImgSDK.dll`
 
 
 
